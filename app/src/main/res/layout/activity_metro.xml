@@ -15,7 +15,8 @@
         android:textSize="30sp"
         android:textColor="#212121"
         android:layout_weight="1"
-        android:text="MAP"/>
+        android:text="MAP"
+        android:id="@+id/metro_map"/>
     <TextView
         android:layout_width="match_parent"
         android:background="#E57373"
@@ -51,7 +52,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="30sp"
-        android:text="RECHARGE FACILITY"/>
+        android:text="ONLINE RECHARGE"/>
     <TextView
         android:layout_width="match_parent"
         android:background="#4DB6AC"

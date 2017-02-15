@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".MetroActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".SocialMediaActivity"></activity>
+        <activity android:name=".SocialMediaActivity" />
+        <activity android:name=".MetroMapActivity" android:theme="@android:style/Theme.Holo.Light.NoActionBar"></activity>
     </application>
 
 </manifest>
