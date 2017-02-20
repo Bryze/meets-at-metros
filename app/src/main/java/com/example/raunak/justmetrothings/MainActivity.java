@@ -15,6 +15,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Enabling Up Button for returning to Last Activity
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //Disabling Up Button on MainActivity since there is no Parent Activity
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        }
+
         TextView profile =(TextView)findViewById(R.id.profile);
         TextView metro  = (TextView)findViewById(R.id.metro);
         TextView social_media = (TextView)findViewById(R.id.social_media);

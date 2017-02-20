@@ -17,11 +17,15 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
         SimpleFragmentPageAdapter adapter = new SimpleFragmentPageAdapter(ProfileActivity.this,getSupportFragmentManager());
         viewPager.setAdapter(adapter);
         tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        viewPager.setCurrentItem(1);
         setupTablayout();
     }
 
