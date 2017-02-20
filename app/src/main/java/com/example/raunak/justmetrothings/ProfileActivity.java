@@ -22,6 +22,7 @@ public class ProfileActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout = (TabLayout)findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewPager);
+        viewPager.setCurrentItem(1);
         setupTablayout();
     }
 
