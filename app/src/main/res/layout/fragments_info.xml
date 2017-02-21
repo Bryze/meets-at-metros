@@ -20,7 +20,7 @@
             android:id="@+id/profile_image"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/anonymous_aseem"
+            android:src="@drawable/gormint"
             android:background="@drawable/image_border"
             android:layout_marginTop="85dp"
             android:layout_centerHorizontal="true"
