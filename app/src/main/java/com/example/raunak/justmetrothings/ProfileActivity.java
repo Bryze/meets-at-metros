@@ -17,8 +17,7 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         ViewPager viewPager = (ViewPager)findViewById(R.id.viewpager);
         SimpleFragmentPageAdapter adapter = new SimpleFragmentPageAdapter(ProfileActivity.this,getSupportFragmentManager());
@@ -31,8 +30,8 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     private  void setupTablayout(){
-        tabLayout.getTabAt(0).setText("LOGS");
-        tabLayout.getTabAt(1).setText("INFO");
-        tabLayout.getTabAt(2).setText("SETTINGS");
+        tabLayout.getTabAt(0).setIcon(R.drawable.logs_image_changer).setText("LOGS");
+        tabLayout.getTabAt(1).setIcon(R.drawable.info_image_changer).setText("INFO");
+        tabLayout.getTabAt(2).setIcon(R.drawable.settings_image_changer).setText("SETTINGS");
     }
 }

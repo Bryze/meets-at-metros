@@ -27,7 +27,7 @@
         <activity
             android:name=".MetroMapActivity"
             android:label="DELHI METRO MAP "
-            android:theme="@android:style/Theme.Black" />
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar" />
         <activity android:name=".ProfileActivity"
             android:label="@string/PROFILE"
             android:parentActivityName=".MainActivity"></activity>
