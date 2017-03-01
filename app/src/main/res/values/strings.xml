@@ -3,9 +3,6 @@
     <string name="METRO">METRO</string>
     <string name="SOCIAL_MEDIA">SOCIAL MEDIA</string>
     <string name="PROFILE">PROFILE</string>
-    <string name="FORGET_PASSWORD">FORGET PASSWORD</string>
-    <string name="SIGN_UP">SIGN UP</string>
-    <string name="SIGN_IN">SIGN IN</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

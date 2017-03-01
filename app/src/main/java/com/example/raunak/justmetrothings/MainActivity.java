@@ -29,10 +29,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        //   Intent i=new Intent(MainActivity.this,ProfileActivity.class);
+
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,ProfileActivity.class);
+                Intent i=new Intent(MainActivity.this,Login1.class);
                 startActivity(i);
             }
         });
