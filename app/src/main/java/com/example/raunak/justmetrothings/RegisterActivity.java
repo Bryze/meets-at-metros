@@ -81,7 +81,7 @@ public class RegisterActivity extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 progressdialog.hide();
                                 if(task.isSuccessful()){
-
+                                    finish();
                                     Intent i = new Intent(RegisterActivity.this, DatabaseActivity.class);
                                     startActivity(i);
                                 }
