@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(MainActivity.this,Login1.class);
+                Intent i=new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(i);
             }
         });
