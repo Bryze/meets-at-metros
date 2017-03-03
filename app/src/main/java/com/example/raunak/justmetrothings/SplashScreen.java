@@ -3,6 +3,7 @@ package com.example.raunak.justmetrothings;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -10,6 +11,11 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+
+        Toolbar toolbar;
+        toolbar = (Toolbar)findViewById(R.id.login_toolbar);
+        setSupportActionBar(toolbar);
+
     //Trying to hide status bar + action bar using the following code
     /*    View decorView = getWindow().getDecorView();
         // Hide the status bar.

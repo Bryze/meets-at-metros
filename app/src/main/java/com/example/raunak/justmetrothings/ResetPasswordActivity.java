@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
     private Button sendemail;
     private ProgressDialog progressdialog;
     private  String mail_id;
+    Toolbar toolbar;
 
     FirebaseAuth firebase_auth;
 
@@ -27,6 +29,12 @@ public class ResetPasswordActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
+
+        toolbar = (Toolbar)findViewById(R.id.login_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         resetemail = (EditText)findViewById(R.id.resetpass_email);
         sendemail = (Button)findViewById(R.id.sendEmail);
         progressdialog = new ProgressDialog(this);

@@ -10,10 +10,19 @@
         <item name="android:windowContentOverlay">@null</item>
     </style>
 
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/MiwokActionShadow</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
     <style name="MiwokActionShadow" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="elevation">0dp</item>
     </style>
-
     <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@android:color/white</item>
         <item name="tabSelectedTextColor">@android:color/white</item>

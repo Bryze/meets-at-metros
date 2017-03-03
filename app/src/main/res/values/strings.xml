@@ -4,8 +4,8 @@
     <string name="SOCIAL_MEDIA">SOCIAL MEDIA</string>
     <string name="PROFILE">PROFILE</string>
     <string name="SIGN_OUT">SIGN OUT</string>
-    <string name="FORGET_PASSWORD">FORGET PASSWORD</string>
-    <string name="SIGN_UP">SIGN UP</string>
+    <string name="FORGET_PASSWORD">Forgot Password ?</string>
+    <string name="SIGN_UP">New Here? Sign Up</string>
     <string name="SIGN_IN">SIGN IN</string>
 
     <!-- TODO: Remove or change this placeholder text -->

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -23,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText email_reg;
     private  EditText pass_reg;
     private TextView sign_in_go;
-
+    Toolbar toolbar;
     private String email_text_reg;
 
     private String pass_text_reg;
@@ -37,6 +38,12 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        toolbar = (Toolbar)findViewById(R.id.login_toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         progressdialog = new ProgressDialog(this);
         button_reg = (TextView) findViewById(R.id.button_reg);
 

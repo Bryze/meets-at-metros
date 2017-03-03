@@ -6,37 +6,48 @@
     android:background="@drawable/gradient_info"
     >
 
+    <include
+        android:id="@+id/login_toolbar"
+        layout="@layout/layout_toolbar" />
+
     <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:inputType="textEmailAddress"
-        android:layout_marginTop="65dp"
         android:layout_gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:hint="EMAIL ID"
         android:textSize="20dp"
         android:gravity="center"
-        android:background="#FFFFFF"
-        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
         android:id="@+id/email_reg"/>
     <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
         android:inputType="textPassword"
         android:layout_gravity="center"
-        android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
         android:hint="PASSWORD"
         android:textSize="20dp"
         android:gravity="center"
-        android:background="#FFFFFF"
+        android:background="@drawable/shape"
         android:layout_marginBottom="10dp"
         android:id="@+id/pass_reg"/>
     <TextView
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
         android:layout_gravity="center"
         android:text="REGISTER"
         android:gravity="center"
-        android:textSize="30dp"
-        android:background="#FFFFFF"
+        android:textSize="15dp"
+        android:background="@drawable/shape"
         android:id="@+id/button_reg"/>
 
 </LinearLayout>

@@ -1,6 +1,7 @@
 package com.example.raunak.justmetrothings;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,11 +16,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+
 
         TextView profile =(TextView)findViewById(R.id.profile);
         TextView metro  = (TextView)findViewById(R.id.metro);
         TextView social_media = (TextView)findViewById(R.id.social_media);
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Ubuntu-Regular.ttf");
+        profile.setTypeface(custom_font);
+        metro.setTypeface(custom_font);
+        social_media.setTypeface(custom_font);
 
         metro.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -19,7 +19,11 @@
         android:gravity="center"
         android:background="#2c3e50"
         android:textColor="#ffffff"
-        android:onClick="profile"/>
+        android:onClick="profile"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="10"/>
 
     <TextView
         android:id="@+id/metro"
@@ -34,7 +38,11 @@
         android:textSize="30sp"
         android:gravity="center"
         android:background="#145a32"
-        android:textColor="#ffffff" />
+        android:textColor="#ffffff"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="10"/>
 
     <TextView
         android:id="@+id/social_media"
@@ -49,6 +57,10 @@
         android:textSize="30sp"
         android:background="#641e16"
         android:textColor="#ffffff"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="10"/>
 </LinearLayout>
 
