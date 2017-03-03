@@ -1,26 +1,3 @@
-package com.example.raunak.justmetrothings;
-
-import android.content.Context;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
-
-import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
-
-/**
- * Instrumentation test, which will execute on an Android device.
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
-@RunWith(AndroidJUnit4.class)
-public class ExampleInstrumentedTest {
-    @Test
-    public void useAppContext() throws Exception {
-        // Context of the app under test.
-        Context appContext = InstrumentationRegistry.getTargetContext();
-
-        assertEquals("com.example.raunak.justmetrothings", appContext.getPackageName());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:212b6a21a04c76ed51f0718be4b8e3b00a5e1a099ca95271023f9a6acf01e9a5
+size 798

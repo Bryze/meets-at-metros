@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_settings_inactive_24dp" android:state_selected="false"></item>
-    <item android:drawable="@drawable/ic_settings_active_24dp" android:state_selected="true"/>
-
-</selector>
+version https://git-lfs.github.com/spec/v1
+oid sha256:943fe143de5ec026d97ef5ab3ff9b820863019552b8008c1b5d41fe2be11b05b
+size 325

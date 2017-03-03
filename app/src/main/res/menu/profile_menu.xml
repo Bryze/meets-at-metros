@@ -1,10 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/sign_out"
-        android:title="@string/SIGN_OUT"
-        app:showAsAction="always"/>
-
-
-</menu>
+version https://git-lfs.github.com/spec/v1
+oid sha256:636693ad9bf25049799b0544a045a9f7a21232d8461c34bf2b7f71c3a0223e4c
+size 301

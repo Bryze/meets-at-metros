@@ -1,13 +1,3 @@
-package com.example.raunak.justmetrothings;
-
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-
-public class SocialMediaActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_social_media);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:87d07d84b875c8737ce83fd9d59f261e8b85517d189879c291a82a4604d8b121
+size 375

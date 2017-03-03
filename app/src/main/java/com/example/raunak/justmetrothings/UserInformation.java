@@ -1,21 +1,3 @@
-package com.example.raunak.justmetrothings;
-
-/**
- * Created by RAUNAK on 01-03-2017.
- */
-
-public class UserInformation {
-    public String name;
-    public String gender;
-    public String relationship;
-    public String location;
-
-    public UserInformation(){}
-
-    public UserInformation(String username, String usergender, String userrelation, String userlocation){
-        name = username;
-        gender = usergender;
-        relationship = userrelation;
-        location = userlocation;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2741ca9840c6bb559fdf86e01061e97f7d8de60c2e95a386fd8af4a27fe5691
+size 523

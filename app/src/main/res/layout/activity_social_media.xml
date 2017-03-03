@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_social_media"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.raunak.justmetrothings.SocialMediaActivity">
-
-</RelativeLayout>
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ca128977e912936447766a27e446cd0086543e79e6fb71f4b3c99e699c624a9
+size 636

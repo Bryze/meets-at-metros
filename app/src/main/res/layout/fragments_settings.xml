@@ -1,11 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:text="Temporary Settings Text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4" />
-</LinearLayout>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ba850f72f4897d1b16b00af2f1dc3fa81f453db7d502104257d09ad29336124
+size 440

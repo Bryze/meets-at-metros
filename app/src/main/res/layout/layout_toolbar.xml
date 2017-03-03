@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@android:color/transparent">
-</android.support.v7.widget.Toolbar>
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e9f3f91d8d76761615ef5d56be9d9eef6c00d56a2e97e4b09a996b80c1e7c98
+size 308

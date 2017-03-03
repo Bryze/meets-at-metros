@@ -1,13 +1,3 @@
-<resources>
-    <string name="app_name">Just Metro Things</string>
-    <string name="METRO">METRO</string>
-    <string name="SOCIAL_MEDIA">SOCIAL MEDIA</string>
-    <string name="PROFILE">PROFILE</string>
-    <string name="SIGN_OUT">SIGN OUT</string>
-    <string name="FORGET_PASSWORD">Forgot Password ?</string>
-    <string name="SIGN_UP">New Here? Sign Up</string>
-    <string name="SIGN_IN">SIGN IN</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-</resources>
+version https://git-lfs.github.com/spec/v1
+oid sha256:94e3e6746216e4d808cc55e8bbd960e607f62518b8be1aa8daebb353c7e03718
+size 566

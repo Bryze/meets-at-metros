@@ -1,18 +1,3 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0'
-    }
-}
-
-allprojects {
-    version = VERSION_NAME
-    group = GROUP
-
-    repositories {
-        mavenCentral()
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fd55e44691b44575689c30e4c57f41f5dcd534c56bb0cc45bbb4c3719408dc74
+size 257

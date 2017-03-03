@@ -1,17 +1,3 @@
-package com.example.raunak.justmetrothings;
-
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
-/**
- * Example local unit test, which will execute on the development machine (host).
- *
- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
- */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f2fe655c14dbf92a3c567df31100d1c16311ec000cc437b406e7f1fdaca7262
+size 428

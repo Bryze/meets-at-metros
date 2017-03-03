@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/shape"
-        android:state_pressed="true" />
-    <item android:drawable="@drawable/button_shape"
-        android:state_focused="true" />
-    <item android:drawable="@drawable/button_shape" />
-</selector>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b16abb8cdb0511575a742d0e73f3135065af522cd212edf740b390767b22df4d
+size 359
